@@ -87,7 +87,7 @@ export const removeBackgroundBase64 = async (base64Image) => {
 
 
 export const signupApi = async ({ name, email, password, passwordConfirm }) => {
-  const response = await axios.post(`${BASE_URL}/api/auth/signup`, {
+  const response = await axios.post(`${BASE_URL}/api/signup`, {
     name, 
     email,
     password,
